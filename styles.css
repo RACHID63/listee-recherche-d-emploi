@@ -1,7 +1,133 @@
-nav {
-    height: 90px;
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
 }
 
-img {
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+}
 
+.navbar-brand img {
+  height: 105px;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-item {
+  margin-right: 15px;
+}
+
+.nav-link {
+  color: white;
+}
+
+.collapse {
+  display: flex;
+  width: 1500px;
+  justify-content: center;
+}
+
+input {
+  height: 30PX;
+  border-radius: 5PX;
+}
+
+input :hover {
+  background: yellowgreen;
+}
+
+.form-inline {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.form-inline input[type="text"],
+.form-inline input[type="submit"] {
+  margin-right: 15px;
+}
+
+.navbar-nav.ml-auto {
+  margin-left: auto;
+}
+
+
+.form-inline {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.form-inline input[type="text"],
+.form-inline input[type="submit"] {
+  margin-right: 15px;
+}
+
+.navbar-nav.ml-auto {
+  margin-left: auto;
+}
+
+
+h1 {
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+
+
+.footercontainer {
+  margin-top: 20px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.button {
+  margin-right: 10px;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: black;
+}
+
+.btn-danger {
+  margin-top: 5px;
 }

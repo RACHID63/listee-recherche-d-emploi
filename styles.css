@@ -24,6 +24,12 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: yellow;
+  transition: 0.3s;
+  scale: 1.2;
+}
+
 img {
   height: 95px;
   position: relative;
@@ -112,7 +118,7 @@ h1 {
 
 .btn {
   font-size: 20px;
-  width: 110px;
+  width: 150px;
   height: 47px;
   background: red;
   color: whitesmoke;
@@ -120,6 +126,7 @@ h1 {
 }
 
 .btn:hover {
+  transition: 0.35s;
   background: blue;
 }
 
